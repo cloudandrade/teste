@@ -1,19 +1,24 @@
 {
-  "name": "teste",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cloudandrade/teste.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cloudandrade/teste/issues"
-  },
-  "homepage": "https://github.com/cloudandrade/teste#readme"
+	"name": "teste",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"dev": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cloudandrade/teste.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cloudandrade/teste/issues"
+	},
+	"homepage": "https://github.com/cloudandrade/teste#readme",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"nodemon": "^2.0.4"
+	}
 }
