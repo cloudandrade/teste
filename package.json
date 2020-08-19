@@ -4,13 +4,11 @@
 	"description": "",
 	"main": "app.js",
 	"scripts": {
-		"dev": "node app.js"
+		"dev": "nodemon app.js",
+		"prod": "node app.js"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/cloudandrade/teste.git"
-	},
-	"author": "",
+	"repository": "git+https://github.com/cloudandrade/teste.git",
+	"author": "Jan Andrade <cloud.andrade16@gmail.com>",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/cloudandrade/teste/issues"
@@ -19,6 +17,7 @@
 	"dependencies": {
 		"body-parser": "^1.19.0",
 		"express": "^4.17.1",
-		"nodemon": "^2.0.4"
+		"mysql2": "^2.1.0",
+		"sequelize": "^6.3.4"
 	}
 }
